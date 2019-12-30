@@ -27,7 +27,7 @@
     "vue-template-compiler": "^2.6.10"
   },
   "description": "## Project setup ``` npm install ```",
-  "main": ".eslintrc.js",
+  "main": "main.js",
   "keywords": [
     "npm",
     "vuejs-image-gallery"
