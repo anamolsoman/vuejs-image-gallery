@@ -1,6 +1,6 @@
 {
   "name": "vuejs-image-gallery",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "main": "dist/Gallery.umd.js",
   "module": "dist/Gallery.esm.js",
