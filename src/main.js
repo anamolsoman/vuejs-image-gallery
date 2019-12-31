@@ -4,7 +4,6 @@ import router from "./router";
 import store from "./store";
 import Vuetify from "vuetify";
 import "vuetify/dist/vuetify.min.css";
-import Gallery from "@/components/Gallery.vue";
 
 Vue.use(Vuetify);
 
@@ -25,6 +24,6 @@ export default {
   install(Vue) {
     // Let's register our component globally
     // https://vuejs.org/v2/guide/components-registration.html
-    Vue.component("Gallery", Gallery);
+    Vue.component("Gallery", require("@/components/Gallery.vue").default);
   }
 };
