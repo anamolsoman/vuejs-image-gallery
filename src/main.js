@@ -1,30 +1,15 @@
 import Vue from "vue";
 import App from "./App.vue";
+import "./registerServiceWorker";
 import router from "./router";
 import store from "./store";
-import Vuetify from "vuetify";
-import "vuetify/dist/vuetify.min.css";
-import Gallery from "~/components/Gallery.vue";
-
-Vue.use(Vuetify);
+import vuetify from "./plugins/vuetify";
 
 Vue.config.productionTip = false;
 
 new Vue({
   router,
   store,
-  render: function(h) {
-    return h(App);
-  }
+  vuetify,
+  render: h => h(App)
 }).$mount("#app");
-
-Vue.use({
-  param: "something"
-});
-export default {
-  install(Vue) {
-    // Let's register our component globally
-    // https://vuejs.org/v2/guide/components-registration.html
-    Vue.component("Gallery", Gallery);
-  }
-};

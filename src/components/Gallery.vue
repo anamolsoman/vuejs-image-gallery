@@ -1,5 +1,5 @@
 <template>
-  <v-row>
+  <v-row data-app="true">
     <v-col>
       <v-card>
         <v-container fluid>
@@ -34,7 +34,7 @@
                 </v-img>
               </v-card>
             </v-col>
-            <v-dialog v-model="dialog" max-width="720">
+            <v-dialog v-model="dialog" max-width="720" isDark="">
               <v-card>
                 <v-img :src="imgSrc" max-width="720" height="auto"></v-img>
                 <v-card-actions>
@@ -56,10 +56,10 @@
 <script>
 export default {
   props: ["images"],
-  name: "Gallery",
   data() {
     return {
-      dialog: false
+      dialog: false,
+      imgSrc: ""
     };
   }
 };
