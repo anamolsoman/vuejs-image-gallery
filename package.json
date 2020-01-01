@@ -3,8 +3,18 @@
   "version": "0.1.2",
   "private": false,
   "license": "MIT",
+  "description": "vuejs responsive image gallery",
+  "bugs": "https://github.com/anamolsoman/vuejs-image-gallery/issues",
+  "repository": "https://github.com/anamolsoman/vuejs-image-gallery",
   "main": "dist/Gallery.umd.js",
   "unpkg": "dist/Gallery.min.js",
+  "keywords": [
+    "vuejs",
+    "image gallery",
+    "vuetify",
+    "responsive",
+    "gallery"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "lint": "vue-cli-service lint",

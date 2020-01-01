@@ -6,7 +6,7 @@
 
 <script>
 // @ is an alias to /src
-import Gallery from "@/components/Gallery.vue";
+import Gallery from "@/Gallery.vue";
 
 export default {
   data() {
