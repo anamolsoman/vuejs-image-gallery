@@ -20,6 +20,8 @@ npm install
 
 ## Module
 
+<<<<<<< HEAD
+
 ```
 import Gallery from "vuejs-image-gallery";
 ```
@@ -60,6 +62,8 @@ Example
 ```
 
 ![img](src/assets/Capture.png)
+
+=======
 
 ### Git Repo
 
