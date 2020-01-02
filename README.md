@@ -55,6 +55,12 @@ Once installed, it can be used in a template as simply as:
 <Gallery v-bind:images="images" />
 ```
 
+```
+Example
+```
+
+![img](src/assets/Capture.png)
+
 ### Git Repo
 
 Link - https://github.com/anamolsoman/vuejs-image-gallery
