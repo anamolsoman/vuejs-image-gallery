@@ -1,24 +1,60 @@
 # vuejs-image-gallery
 
+## Create Vue Project
+
+```
+vue create <Project-name>
+```
+
 ## Project setup
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## Install Vuetify
+
 ```
-npm run serve
+npm install
 ```
 
-### Compiles and minifies for production
+## Module
+
 ```
-npm run build
+import Gallery from "vuejs-image-gallery";
 ```
 
-### Lints and fixes files
 ```
-npm run lint
+export default {
+name: "App",
+data() {
+return {
+images: [
+{ id: 1, imgSrc: require("@/assets/1.png") },
+{ id: 2, imgSrc: require("@/assets/2.jpg") },
+{ id: 3, imgSrc: require("@/assets/3.jpg") },
+{ id: 4, imgSrc: require("@/assets/4.jpg") },
+{ id: 5, imgSrc: require("@/assets/5.jpg") },
+{ id: 5, imgSrc: require("@/assets/6.jpg") }
+]
+};
+},
+components: {
+Gallery
+}
+};
+
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Usage
+
+Once installed, it can be used in a template as simply as:
+
+```
+
+<Gallery v-bind:images="images" />
+```
+
+### Git Repo
+
+Link - https://github.com/anamolsoman/vuejs-image-gallery
