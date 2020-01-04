@@ -20,8 +20,6 @@ npm install
 
 ## Module
 
-<<<<<<< HEAD
-
 ```
 import Gallery from "vuejs-image-gallery";
 ```
@@ -57,10 +55,6 @@ Once installed, it can be used in a template as simply as:
 <Gallery v-bind:images="images" />
 ```
 
-Example
+## Example
 
-<a href="https://codesandbox.io/s/vuejs-image-gallery-1n6qb" target="_blank">Check Demo</a>
-
-### Git Repo
-
-Link - https://github.com/anamolsoman/vuejs-image-gallery
+<a href="https://codesandbox.io/s/vuejs-image-gallery-1n6qb" target="">Check Demo</a>
