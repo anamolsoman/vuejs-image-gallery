@@ -57,13 +57,9 @@ Once installed, it can be used in a template as simply as:
 <Gallery v-bind:images="images" />
 ```
 
-```
 Example
-```
 
-<a href="https://codesandbox.io/s/vuejs-image-gallery-1n6qb">Check Demo</a>
-
-=======
+<a href="https://codesandbox.io/s/vuejs-image-gallery-1n6qb" target="_blank">Check Demo</a>
 
 ### Git Repo
 
