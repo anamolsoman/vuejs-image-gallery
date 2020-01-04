@@ -61,7 +61,7 @@ Once installed, it can be used in a template as simply as:
 Example
 ```
 
-![img](src/assets/Capture.png)
+<a href="https://codesandbox.io/s/vuejs-image-gallery-1n6qb">Check Demo</a>
 
 =======
 
