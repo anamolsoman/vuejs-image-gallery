@@ -15,7 +15,7 @@ npm install
 ## Install Vuetify
 
 ```
-npm install
+vue add vuetify
 ```
 
 ## Module
