@@ -4,9 +4,12 @@
 
 [![Downloads](https://img.shields.io/npm/dm/vuejs-image-gallery.svg)](https://www.npmjs.com/package/vuejs-image-gallery) [![Version](https://img.shields.io/npm/v/vuejs-image-gallery.svg)](https://www.npmjs.com/package/vuejs-image-gallery)
 
-|                                                                 Image Listing                                                                 |                                                                  Image View                                                                   |
-| :-------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------: |
-| ![Screenshot from 2021-12-13 23-45-30](https://user-images.githubusercontent.com/52847469/145866506-c7b6c43d-8c06-4836-8a7a-82f6357e2d1a.png) | ![Screenshot from 2021-12-13 23-45-42](https://user-images.githubusercontent.com/52847469/145866553-fec64c51-90a4-46f4-8533-72577001dad8.png) |
+![Capture4](https://user-images.githubusercontent.com/52847469/155925969-b6f69eb6-a9d9-4e8c-bf31-fd9034cef474.PNG)
+![Capture](https://user-images.githubusercontent.com/52847469/155926118-1b27d2fb-74e4-4af3-8dd6-c6964a978a77.PNG)
+
+|                                                      Tab View                                                      |                                                    Mobile View                                                     |
+| :----------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------: |
+| ![Capture3](https://user-images.githubusercontent.com/52847469/155926155-af36d4cf-8a24-4371-97e4-10cfba5cc455.PNG) | ![Capture2](https://user-images.githubusercontent.com/52847469/155926163-39cd82e7-33f2-4b1c-969e-276c6d59df0d.PNG) |
 
 Vuejs image gallery is a responsive and customizable image gallery.
 
@@ -34,21 +37,6 @@ Install the dependencies and devDependencies and start the server.
 npm install vuejs-image-gallery
 ```
 
-## Customization
-
-Vuejs image gallery is having some customizable options so you can make changes as per your requirements.
-
-| Props         | Values                                               |
-| ------------- | ---------------------------------------------------- |
-| images        | Array of object which contain id and url of image    |
-| imageWidth    | Width of popup image                                 |
-| imageHeight   | Height of popup image                                |
-| popUpMaxWidth | Maximum width of the popup                           |
-| mdCols        | Number of images you want in medium screen size      |
-| smCols        | Number of images you want in small screen size       |
-| xsCols        | Number of images you want in extra small screen size |
-| lgCols        | Number of images you want in large screen size       |
-
 ## Usage
 
 Import the component like this
@@ -63,7 +51,7 @@ Add the component in your template
  <Gallery
       :images="images"
       :imageWidth="720"
-      :imageHeight="450"
+      :imageHeight="auto"
       :popUpMaxWidth="720"
       :mdCols="4"
       :smCols="4"
@@ -115,6 +103,21 @@ export default {
 In image src you can pass location of your source
 
 > Note: `Id should be in proper numbers
+
+## Customization
+
+Vuejs image gallery is having some customizable options so you can make changes as per your requirements.
+
+| Props         | Values                                               |
+| ------------- | ---------------------------------------------------- |
+| images        | Array of object which contain id and url of image    |
+| imageWidth    | Width of popup image                                 |
+| imageHeight   | Height of popup image                                |
+| popUpMaxWidth | Maximum width of the popup                           |
+| mdCols        | Number of images you want in medium screen size      |
+| smCols        | Number of images you want in small screen size       |
+| xsCols        | Number of images you want in extra small screen size |
+| lgCols        | Number of images you want in large screen size       |
 
 ## License
 

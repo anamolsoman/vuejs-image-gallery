@@ -39,10 +39,22 @@
           ></v-img>
           <v-card-actions>
             <v-spacer></v-spacer>
-            <v-btn class="left-button" text @click="moveToLeft()"
+            <v-btn
+              class="left-button"
+              fab
+              small
+              outlined
+              text
+              @click="moveToLeft()"
               ><v-icon>mdi-arrow-left</v-icon></v-btn
             >
-            <v-btn class="right-button" text @click="moveToRight()"
+            <v-btn
+              class="right-button"
+              fab
+              small
+              outlined
+              text
+              @click="moveToRight()"
               ><v-icon>mdi-arrow-right</v-icon></v-btn
             >
             <v-spacer></v-spacer>

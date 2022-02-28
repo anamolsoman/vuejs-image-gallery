@@ -3,7 +3,6 @@
     <Gallery
       :images="images"
       :imageWidth="imageWidth"
-      :imageHeight="imageHeight"
       :popUpMaxWidth="popUpMaxWidth"
       :mdCols="mdCols"
       :smCols="smCols"
@@ -29,12 +28,14 @@ export default {
       lgCols: 2,
 
       images: [
-        { id: 1, imgSrc: require("../assets/1.png") },
+        { id: 1, imgSrc: require("../assets/1.jpg") },
         { id: 2, imgSrc: require("../assets/2.jpg") },
         { id: 3, imgSrc: require("../assets/3.jpg") },
         { id: 4, imgSrc: require("../assets/4.jpg") },
         { id: 5, imgSrc: require("../assets/5.jpg") },
-        { id: 6, imgSrc: require("../assets/6.jpg") }
+        { id: 6, imgSrc: require("../assets/6.jpg") },
+        { id: 7, imgSrc: require("../assets/3.jpg") },
+        { id: 8, imgSrc: require("../assets/5.jpg") }
       ]
     };
   },
